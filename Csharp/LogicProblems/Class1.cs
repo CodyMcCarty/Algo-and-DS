@@ -1,14 +1,5 @@
 ﻿namespace LogicProblems;
 
-/* TODO: list
-[x] average logic
-[x] all test for average
-[x] the rest of impl
-[] impls https://gitlab.ce.catalyte.io/training/cycleworkinggroups/nationwide/associates/cody-mccarty/catalyte-cycle/intermediate-csharp/csharp-intermediate-project/-/blob/main/LogicProblems/LogicProblem.cs  
-[] test https://gitlab.ce.catalyte.io/training/cycleworkinggroups/nationwide/associates/cody-mccarty/catalyte-cycle/intermediate-csharp/csharp-intermediate-project/-/blob/main/LogicProblems.Tests/LogicProblemTest.cs  
-
-*/
-
 public static class LogicProblem
 {
 
