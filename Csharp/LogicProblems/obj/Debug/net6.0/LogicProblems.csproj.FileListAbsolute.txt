@@ -1,0 +1,12 @@
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\bin\Debug\net6.0\LogicProblems.deps.json
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\bin\Debug\net6.0\LogicProblems.dll
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\bin\Debug\net6.0\LogicProblems.pdb
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\LogicProblems.csproj.AssemblyReference.cache
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\LogicProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\LogicProblems.AssemblyInfoInputs.cache
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\LogicProblems.AssemblyInfo.cs
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\LogicProblems.csproj.CoreCompileInputs.cache
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\LogicProblems.dll
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\refint\LogicProblems.dll
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\LogicProblems.pdb
+C:\Users\cmccarty\Code\0 Practice\PyJsLeetCode\Csharp\LogicProblems\obj\Debug\net6.0\ref\LogicProblems.dll
