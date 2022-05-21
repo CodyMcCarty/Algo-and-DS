@@ -1,6 +1,9 @@
 // The global variable
 /* TODO: list for JS
 [] make solution.test.js
+[] remove console log ect now that we have proper testing
+[] Do I have linting?
+[] obj of functions?
 */
 
 /**
