@@ -7,6 +7,34 @@
 */
 
 /**
+ * Make a function that looks through a collection and returns an array
+ * of all objects that have matching name and value pairs (second argument).
+ * Each name and value pair of the source object has to be present in the
+ * object from the collection if it is to be included in the returned array.
+ * @param {JSON} collection array of objects
+ * @param {Object} source what to look for
+ * @returns
+ */
+function whatIsInAName(collection, source) {
+  const sourceKeys = Object.keys(source);
+
+  return collection.filter((obj) =>
+    sourceKeys.every(
+      (key) => obj.hasOwnProperty(key) && obj[key] === source[key]
+    )
+  );
+}
+
+console.log(
+  "t1",
+  whatIsInAName(
+    [{ apple: 1, bat: 2 }, { apple: 1 }, { apple: 1, bat: 2, cookie: 2 }],
+    { apple: 1, cookie: 2 }
+  ),
+  "\n&e [ { apple: 1, bat: 2, cookie: 2 } ]"
+);
+
+/**
  *Write your own Array.prototype.myFilter(), which should behave exactly
  *like Array.prototype.filter(). You should not use the built-in filter
  *method.  The Array instance can be accessed in the myFilter method
@@ -29,4 +57,4 @@ const myFilter = () => {
   return "actual: ", new_s, "expected: ", [23, 65, 5];
 };
 
-console.log(myFilter());
+// console.log(myFilter());
