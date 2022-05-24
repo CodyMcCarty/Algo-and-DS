@@ -7,6 +7,22 @@
 */
 
 /**
+ * simple Curry function
+ * @param {Curry} x first of three a currying function
+ * @returns a function or 3 things added together
+ */
+const add = (x) => {
+  return (y) => (z) => x + y + z;
+};
+
+// console.log(add(10)(20)(30), "\n60 \n");
+// console.log(add(11)(22)(33), "\n66 \n");
+// console.log(add(5)(5), "\nFunction \n");
+// let addTen = add(5)(5);
+// console.log(addTen(20), "\n30 \n");
+// console.log(addTen(40), "\n50 \n");
+
+/**
  * Make a function that looks through a collection and returns an array
  * of all objects that have matching name and value pairs (second argument).
  * Each name and value pair of the source object has to be present in the
@@ -25,14 +41,14 @@ function whatIsInAName(collection, source) {
   );
 }
 
-console.log(
-  "t1",
-  whatIsInAName(
-    [{ apple: 1, bat: 2 }, { apple: 1 }, { apple: 1, bat: 2, cookie: 2 }],
-    { apple: 1, cookie: 2 }
-  ),
-  "\n&e [ { apple: 1, bat: 2, cookie: 2 } ]"
-);
+// console.log(
+//   "t1",
+//   whatIsInAName(
+//     [{ apple: 1, bat: 2 }, { apple: 1 }, { apple: 1, bat: 2, cookie: 2 }],
+//     { apple: 1, cookie: 2 }
+//   ),
+//   "\n&e [ { apple: 1, bat: 2, cookie: 2 } ]"
+// );
 
 /**
  *Write your own Array.prototype.myFilter(), which should behave exactly

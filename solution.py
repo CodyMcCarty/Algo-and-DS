@@ -1,3 +1,5 @@
+import math
+
 def search(nums: list[int], target: int) -> int:
     lowI = 0
     highI = len(nums)
@@ -18,13 +20,22 @@ def search(nums: list[int], target: int) -> int:
     #         highI = midI
     # return -1
 
-print(search([-1,0,3,5,9,12], 9))
-print(search([-1,0,3,5,9,12,14,16,20,23,45,53,55,61,82], 82))
-print(search([-1,0,3,5,9,12,14,16,20,23,45,53,55,61,82,86], 86))
-print(search([-1,0,3,5,9,12,14,16,20,23,45,53,55,61,82], 555))
-print(search([-1,0,3,5,9,12,14,16,20,23,45,53,55,61,82], -5))
+# print(search([-1,0,3,5,9,12], 9))
+# print(search([-1,0,3,5,9,12,14,16,20,23,45,53,55,61,82], 82))
+# print(search([-1,0,3,5,9,12,14,16,20,23,45,53,55,61,82,86], 86))
+# print(search([-1,0,3,5,9,12,14,16,20,23,45,53,55,61,82], 555))
+# print(search([-1,0,3,5,9,12,14,16,20,23,45,53,55,61,82], -5))
 
 # def search(a, b):
 #     return b
 
 # print(search([2,6,74], 9))
+
+
+
+
+my_arr = [ 2, '3' ]
+print(type(my_arr[1]), 'expect str')
+print(isinstance(my_arr[1], str), 'expect True')
+print(type(my_arr[1]) == str, 'expect True')
+print(math.isnan(float(my_arr[1])), 'expect False')
